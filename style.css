@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
+    
+}
+.sample{
+    border: 5px solid red;
+}
+
+.bg {
+    background-image: url("png-transparent-spider-man-heroes-download-with-transparent-background-free-thumbnail.png") ;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(70px);
+}
+
+.load-texting {
+    background-image: url("png-transparent-spider-man-heroes-download-with-transparent-background-free-thumbnail.png");
+    font-size: 50px;
+    color: lavenderblush;
+}
